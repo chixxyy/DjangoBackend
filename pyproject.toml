@@ -3,6 +3,7 @@ name = "backend"
 version = "0.1.0"
 description = ""
 authors = ["chi <zxc0975527732@gmail.com>"]
+package-mode = false
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -10,6 +11,8 @@ python = "^3.12"
 django = "^5.1.1"
 pre-commit = "^4.0.0"
 commitizen = "^3.29.1"
+mysqlclient = "^2.2.4"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
